@@ -1,0 +1,23 @@
+{
+  "name": "pairingbuddy-marketplace",
+  "owner": {
+    "name": "Alberto Prieto Löfkrantz",
+    "email": "hello@albertoprietolofkrantz.dev"
+  },
+  "metadata": {
+    "description": "Pairing Buddy Claude plugins",
+    "version": "0.1"
+  },
+  "plugins": [
+    {
+      "name": "pairingbuddy",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pairingbuddy/pairingbuddy.git"
+      },
+      "description": "Pairing Buddy, your pair-programming companion.",
+      "version": "0.1",
+      "strict": true
+    }
+  ]
+}
