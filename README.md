@@ -17,7 +17,7 @@ Pairing Buddy enforces TDD, SOLID, YAGNI, and Clean Code principles in every res
 
 #### Installation
 ```bash
-/plugin install pairingbuddy-code@pairingbuddy-marketplace
+/plugin install pairingbuddy@pairingbuddy-marketplace
 ```
 
 **Repository:** [pairingbuddy/pairingbuddy](https://github.com/pairingbuddy/pairingbuddy)
