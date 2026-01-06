@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Pairing Buddy Claude plugins",
-    "version": "0.3"
+    "version": "0.4"
   },
   "plugins": [
     {
@@ -16,7 +16,7 @@
         "url": "https://github.com/pairingbuddy/pairingbuddy.git"
       },
       "description": "Pairing Buddy, your pair-programming companion.",
-      "version": "0.3",
+      "version": "0.4",
       "strict": true
     }
   ]
