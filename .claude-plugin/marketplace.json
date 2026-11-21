@@ -6,17 +6,27 @@
   },
   "metadata": {
     "description": "Pairing Buddy Claude plugins",
-    "version": "0.7"
+    "version": "0.8"
   },
   "plugins": [
     {
       "name": "pairingbuddy",
       "source": {
-        "source": "url",
-        "url": "https://github.com/pairingbuddy/pairingbuddy.git"
+        "source": "github",
+        "repo": "pairingbuddy/pairingbuddy",
+        "ref": "v0.7.0"
       },
-      "description": "Pairing Buddy, your pair-programming companion.",
-      "version": "0.7",
+      "description": "Pairing Buddy, your pair-programming companion. Stable channel: release tags only.",
+      "strict": true
+    },
+    {
+      "name": "pairingbuddy-experimental",
+      "source": {
+        "source": "github",
+        "repo": "pairingbuddy/pairingbuddy",
+        "ref": "v0.8.0-exp.1"
+      },
+      "description": "Pairing Buddy, experimental channel: tags that passed the full suite and a smoke run. Turn stable off first.",
       "strict": true
     }
   ]
