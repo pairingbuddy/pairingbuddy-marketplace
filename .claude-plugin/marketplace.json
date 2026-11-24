@@ -24,7 +24,7 @@
       "source": {
         "source": "github",
         "repo": "pairingbuddy/pairingbuddy",
-        "ref": "v0.8.0-exp.3"
+        "ref": "v0.8.0-exp.4"
       },
       "description": "Pairing Buddy, experimental channel: tags that passed the full suite and a smoke run. Turn stable off first.",
       "strict": true
